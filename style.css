@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+  cursor: url("/images/maca.png"), pointer;
+  background: #201b2c;
+  overflow: hidden;
+}
+
+.arrow {
+  width: 80px;
+  position: absolute;
+}
